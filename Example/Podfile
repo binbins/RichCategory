@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RichCategory_Example' do
+  pod 'RichCategory', :path => '../'
+
+  target 'RichCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

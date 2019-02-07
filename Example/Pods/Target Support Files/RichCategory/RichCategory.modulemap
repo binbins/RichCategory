@@ -1,0 +1,6 @@
+framework module RichCategory {
+  umbrella header "RichCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

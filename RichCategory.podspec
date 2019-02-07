@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RichCategory'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RichCategory.'
+  s.summary          = 'some useful categories, the 1th step to be rich.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/binbins/RichCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'binbins' => 'binbins@18790658715@126.com' }
+  s.author           = { 'binbins' => 'binbins@gddabinbin@gmail.com' }
   s.source           = { :git => 'https://github.com/binbins/RichCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

@@ -22,7 +22,7 @@ pod 'RichCategory'
 
 ## Author
 
-binbins, binbins@18790658715@126.com
+binbins, binbins@gddabinbin@gmail.com
 
 ## License
 

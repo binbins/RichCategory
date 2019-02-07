@@ -1,0 +1,16 @@
+PODS:
+  - RichCategory (0.1.0)
+
+DEPENDENCIES:
+  - RichCategory (from `../`)
+
+EXTERNAL SOURCES:
+  RichCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RichCategory: aefc930e91f177669a7dbef9bcfadc688443998b
+
+PODFILE CHECKSUM: 3b57001a019e3e8a36302348b5d833e8ac88b44b
+
+COCOAPODS: 1.5.3

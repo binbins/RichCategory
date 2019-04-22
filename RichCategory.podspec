@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RichCategory'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'some useful categories, the 1th step to be rich.'
 
 # This description is used to generate tags and improve search results.

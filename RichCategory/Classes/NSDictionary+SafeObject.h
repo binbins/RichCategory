@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (SafeObject)
 
-- (int)safeIntForKey:(NSString *)key;
+- (NSInteger)safeIntForKey:(NSString *)key;
 
 - (NSString *)safeStringForKey:(NSString *)key;
 

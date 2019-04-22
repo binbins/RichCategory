@@ -18,7 +18,7 @@
     return (obj == nil || [obj isEqual:[NSNull null]]) ? YES : NO;
 }
 
-- (int)safeIntForKey:(NSString *)key {
+- (NSInteger)safeIntForKey:(NSString *)key {
     
     if ([self objIsNull] || ![self isKindOfClass:[NSDictionary class]]) {
         NSLog(@"字典非法");
@@ -36,7 +36,7 @@
     }
     
     if ([value isKindOfClass:[NSNumber class]]) {
-        return ((NSNumber *)value).intValue;
+        return ((NSNumber *)value).integerValue;
     }
     return -1;
 }
@@ -54,6 +54,10 @@
     }
     
     NSString *value = [self objectForKey:key];
+    if ([value isKindOfClass:[NSNumber class]]) {
+        return ((NSNumber *)value).stringValue;
+    }
+    
     if ([value isKindOfClass:[NSString class]] && (value != nil) ) {
         return value;
     }
@@ -114,7 +118,7 @@
         return ((NSString *)value).floatValue;
     }
     
-    if ([value isKindOfClass:[NSNumber class]]) {//不太合适哈
+    if ([value isKindOfClass:[NSNumber class]]) {
         return ((NSNumber *)value).floatValue;
     }
     return -1.0f;

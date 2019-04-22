@@ -1,5 +1,5 @@
 PODS:
-  - RichCategory (0.1.0)
+  - RichCategory (0.1.1)
 
 DEPENDENCIES:
   - RichCategory (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RichCategory: aefc930e91f177669a7dbef9bcfadc688443998b
+  RichCategory: 728c0acf8c969b3a4323c616234d3133d0e07169
 
 PODFILE CHECKSUM: 3b57001a019e3e8a36302348b5d833e8ac88b44b
 
